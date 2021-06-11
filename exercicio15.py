@@ -11,6 +11,7 @@
 # - INSS (8%) : R$
 # - Sindicato ( 5%) : R$
 # = Salário Liquido : R$
+# Obs.: Salário Bruto - Descontos = Salário Líquido.
 # Desenvolvido por Jonathan Silveira - Instagram: @jonathandev01
 
 valor_hora = float(input('Digite o valor recebido por hora: '))
