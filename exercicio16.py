@@ -3,6 +3,8 @@
 # e  que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades 
 # de latas de tinta a serem compradas e o preço total.
 
+import math
+
 area = int(input('Digite a área de pintura em metros quadrados: '))
 litros = area / 3
 valor_lata = 80
