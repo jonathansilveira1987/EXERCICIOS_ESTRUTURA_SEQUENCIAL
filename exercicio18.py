@@ -4,5 +4,7 @@
 
 tamanho = float(input('Digite o tamando do arquivos que será baixado: '))
 velocidade = float(input('Digite a velicodade de sua conexão de internet: '))
-resultado = (tamanho / velocidade) * 60
-print('O tempo para que o download esteja completo será de :', resultado, 'segundos')
+resultado = ((tamanho * 8) / velocidade) / 60
+print ("O tempo aproximado de download é de %.2f minutos" %resultado)
+
+# print('O tempo para que o download esteja completo será de :', resultado, 'segundos')
