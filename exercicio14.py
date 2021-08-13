@@ -9,6 +9,6 @@
 peso_peixe = float(input("Qual é o peso do peixe? "))
 
 if peso_peixe > 50:
-   print("O peso do peixe está acima do permitido, o valor de multa é de R$",(peso_peixe - 50)*4)
+   print("O peso do peixe está acima do permitido, o valor de multa é de R$",(peso_peixe - 50) * 4)
 else:
    print("O peixe está em peso permitido.")

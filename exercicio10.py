@@ -2,7 +2,7 @@
 # F = 5 * ((C-32) / 9).
 # Desenvolvido por Jonathan Silveira - Instagram: @jonathandev01
 
-c = float(input('Informe a temperatura em graus celsius: '))
+c = float(input("Informe a temperatura em graus celsius: "))
 f = (c * 1.8 + 32)
 
-print ('A temperatura convertida é: ', f, 'Fahrenheit')
+print ("A temperatura convertida é: ", f, "Fahrenheit")

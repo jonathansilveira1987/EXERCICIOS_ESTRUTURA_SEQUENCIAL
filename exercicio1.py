@@ -2,7 +2,6 @@
 # Desenvolvido por Jonathan Silveira - Instagram: @jonathandev01
 
 print("Olá Mundo")
-
 print ("Hello World")
 
 a = 200

@@ -4,10 +4,10 @@
 # o terceiro elevado ao cubo.
 # Desenvolvido por Jonathan Silveira - Instagram: @jonathandev01
 
-num1 = int(input('Digite o primeiro número inteiro: '))
-num2 = int(input('Digite o segundo número inteiro: '))
-numr = float(input('Digite um número real: '))
+num1 = int(input("Digite o primeiro número inteiro: "))
+num2 = int(input("Digite o segundo número inteiro: "))
+numr = float(input("Digite um número real: "))
 
-print ('Soma:', ((2*num1) * (num2 / 2)))
-print ('Produto:', (3 * num1) + numr)
-print ('Cubo:', numr ** numr)
+print ("Soma: ", ((2*num1) * (num2 / 2)))
+print ("Produto: ", (3 * num1) + numr)
+print ("Cubo: ", numr ** numr)

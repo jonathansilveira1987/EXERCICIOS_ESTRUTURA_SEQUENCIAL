@@ -6,11 +6,11 @@
 
 import math
 
-area = int(input('Digite a área de pintura em metros quadrados: '))
+area = int(input("Digite a área de pintura em metros quadrados: "))
 litros = area / 3
 valor_lata = 80
 capacidade_lata = 18
 qtd_latas = litros / capacidade_lata
 total = qtd_latas * valor_lata
-print('Você usará: ', qtd_latas, 'latas')
-print('O preço a pagar é de R$: ', total)
+print("Você usará: ", qtd_latas, "latas")
+print("O preço a pagar é de R$: ", total)

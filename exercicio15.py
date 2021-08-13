@@ -14,16 +14,16 @@
 # Obs.: Salário Bruto - Descontos = Salário Líquido.
 # Desenvolvido por Jonathan Silveira - Instagram: @jonathandev01
 
-valor_hora = float(input('Digite o valor recebido por hora: '))
-horas_trabalhadas = int(input('Digite o número de horas trabalhadas durante o mês: '))
+valor_hora = float(input("Digite o valor recebido por hora: "))
+horas_trabalhadas = int(input("Digite o número de horas trabalhadas durante o mês: "))
 salario = valor_hora * horas_trabalhadas
 ir = (11/100.0 * salario)
-print ('Imposto de renda: ',ir)
+print ("Imposto de renda: ",ir)
 inss = (8/100.0 * salario)
-print ('INSS: ',inss)
+print ("INSS: ",inss)
 sind = (5/100.0 * salario)
-print ('Sindicato: ',sind)
+print ("Sindicato: ",sind)
 desc = ir + inss + sind
 salarioL = salario - desc
-print ('O desconto total do salario bruto(',salario,'R$)',
-       'foi',desc,'\nO salario liquido ficou,',salarioL)
+print ("O desconto total do salario bruto(",salario,"R$)",
+       "foi",desc,"\nO salario liquido ficou,",salarioL)

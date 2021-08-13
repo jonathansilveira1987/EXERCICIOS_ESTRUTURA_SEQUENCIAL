@@ -3,7 +3,8 @@
 # usando a seguinte fórmula: (72.7*altura) - 58
 # Desenvolvido por Jonathan Silveira - Instagram: @jonathandev01
 
-a = float(input('Digite sua altura: '))
+print("Olá, vou mencionar seu peso ideal de acordo com sua altura.")
+a = float(input("Digite sua altura: "))
 f = float(72.7 * a)
 pi = float(f - 58)
 print(pi)
